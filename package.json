@@ -7,15 +7,20 @@
 	"repository": "ramonkroetz/pupa",
 	"author": {
 		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"email": "sindresorhus@gmail.com"
 	},
+	"contributors": [
+		{
+			"name": "Ramon Kroetz",
+			"email": "ramonkroetz@gmail.com"
+		}
+	],
 	"engines": {
 		"node": ">=8"
 	},
 	"scripts": {
 		"build": "webpack --mode production",
-		"test": "xo && ava && tsd"
+		"test": "jest"
 	},
 	"files": [
 		"index.js",
@@ -36,7 +41,9 @@
 		"placeholders",
 		"values",
 		"transform",
-		"micro"
+		"micro",
+		"webpack",
+		"babel"
 	],
 	"dependencies": {
 		"escape-goat": "^2.0.0"
@@ -44,11 +51,9 @@
 	"devDependencies": {
 		"@babel/core": "^7.14.3",
 		"@babel/preset-env": "^7.14.2",
-		"ava": "^1.4.1",
 		"babel-loader": "^8.2.2",
-		"tsd": "^0.7.2",
+		"jest": "^27.0.1",
 		"webpack": "^5.38.1",
-		"webpack-cli": "^4.7.0",
-		"xo": "^0.24.0"
+		"webpack-cli": "^4.7.0"
 	}
 }
