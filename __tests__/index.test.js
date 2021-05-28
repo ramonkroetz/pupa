@@ -1,4 +1,4 @@
-import pupa from '../index.js'
+import pupa from '../lib'
 
 describe('pupa-browser', () => {
     it('main', () => {

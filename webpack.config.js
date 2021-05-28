@@ -5,6 +5,9 @@ module.exports = {
     output: {
       path: path.resolve(__dirname, './lib'),
       filename: 'index.js',
+      library: {
+        type: 'commonjs',
+      },
     },
     module: {
       rules: [
