@@ -1,9 +1,10 @@
 {
-	"name": "pupa",
-	"version": "2.1.1",
+	"name": "pupa-browser",
+	"main": "lib/index.js",
+	"version": "1.0.0",
 	"description": "Simple micro templating",
 	"license": "MIT",
-	"repository": "sindresorhus/pupa",
+	"repository": "ramonkroetz/pupa",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",

@@ -8,14 +8,14 @@ Useful when all you need is to fill in some placeholders.
 ## Install
 
 ```
-$ npm install pupa
+$ npm install pupa-browser
 ```
 
 
 ## Usage
 
 ```js
-const pupa = require('pupa');
+const pupa = require('pupa-browser');
 
 pupa('The mobile number of {name} is {phone.mobile}', {
 	name: 'Sindre',
