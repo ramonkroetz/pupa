@@ -13,6 +13,7 @@
 		"node": ">=8"
 	},
 	"scripts": {
+		"build": "webpack --mode production",
 		"test": "xo && ava && tsd"
 	},
 	"files": [
@@ -40,8 +41,13 @@
 		"escape-goat": "^2.0.0"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.14.3",
+		"@babel/preset-env": "^7.14.2",
 		"ava": "^1.4.1",
+		"babel-loader": "^8.2.2",
 		"tsd": "^0.7.2",
+		"webpack": "^5.38.1",
+		"webpack-cli": "^4.7.0",
 		"xo": "^0.24.0"
 	}
 }
